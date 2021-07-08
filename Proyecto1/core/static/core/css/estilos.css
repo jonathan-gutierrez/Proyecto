@@ -1,0 +1,275 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 90px;
+    background-image: linear-gradient(-45deg, #A70000 50%, #F0A819 50%);
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.Agrupar{
+    background: #FFCC55;
+    width: 960px;
+    margin: 50px auto;
+    padding: auto;
+
+}
+
+header, section, footer, aside, nav, article{
+    display: block;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.subtitulo {
+    margin: 0;
+    color: red;
+    display: inline;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.contenedorI {
+    width: 250px;
+    padding: 1px;
+    float: right;
+}
+
+.formularioI {
+    margin-top: 10px;
+    padding: 1px;
+
+}
+
+.formularioI .contenedorI h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.Menu {
+    margin: 5px;
+    text-align: left;
+    background: #8A0404;
+}
+
+.Menu li {
+    margin: 5px;
+    display: inline-block;
+    list-style: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: red;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+}
+
+.tipo {
+    color: white;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #8A0404;
+}
+
+.carousel {
+    min-height: 200px;
+    
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 200px;
+    height: 200px;
+}
+
+.Cabeza {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.Cabeza h1 {
+    font-size: 60px;
+    text-align:center;
+    margin-top:-115px;
+}
+
+.Cabeza img{
+    width: 175px;
+    height: 140px;
+    margin-right: 900px;
+}
+
+img{
+    margin: auto;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.seccion {
+    padding: 10px;
+    background: #F0A819;
+    margin: 50px auto;
+    width: 500px;
+    border: 1px solid black ;
+}
+
+.Pie {
+    background: #8A0404;
+}
+
+.Button {
+    display: inline-block;
+    position: absolute;
+    align-items: right;
+}
+
+.buttonf {
+    background: #004FF9;
+    color: white;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.buttonw {
+    background: #2DF900;
+    color: black;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.buttoni {
+    background: #F9006D;
+    color: black;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.buttony {
+    background: #DA1515;
+    color: white;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.botoniniciar {
+    background: #F0A819;
+    color: black;
+    font-size: 15px;
+    margin: 1px;
+    padding: 5px 15px;
+    width: 90%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonR {
+    background: #F0A819;
+    color: black;
+    font-size:15px;
+    margin: 20px;
+    padding: 10px 15px;
+    width: 90%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.Button span {
+    margin-left: 3px;
+    font-size: 18px;
+    left: 3px;
+    z-index: 100;
+}
+
+.contenedorR {
+    width: 100%;
+    padding:10px;
+
+}
+
+.formularioR {
+    background: white;
+    padding: 3px;
+    margin:auto;
+    width:500px;
+    margin-top:150px;
+    border-radius: 5px;
+    margin-block: 50px;
+}
+
+.formularioR .contenedorR h3 {
+    text-align:center;
+    color: black;
+    font-size: 40px;
+}
+
+input[type="text"]
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+}
+
+imput-contenedor{
+    margin-bottom:20px;
+    border:1px solid black;
+
+
+}
+
+imput-contenedor span {
+   min-width: 50px;
+   text-align: center;
+} 
+
+.pin {
+
+    padding: 20px;
+    margin:auto;
+    width:550px;
+    border-radius: 50px;
+    margin-block: 50px;
+
+    background-color: #FDEFAE; }
